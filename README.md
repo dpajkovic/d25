@@ -14,7 +14,7 @@ Examining the card more closely, you discover a phone number for tech support.
 
 Unfortunately for the door, you know a thing or two about cryptographic handshakes.
 
-The handshake used by the card and the door involves an operation that **transforms** a **subject number**. To transform a subject number, start with the value 1. Then, a number of times called the **loop size**, perform the following steps:
+The handshake used by the card and the door involves an operation that **transforms** a **subject number**. To transform a subject number, start with the value `1`. Then, a number of times called the **loop size**, perform the following steps:
 
 - Set the value to itself multiplied by the **subject number**.
 - Set the value to the remainder after dividing the value by `20201227`.
